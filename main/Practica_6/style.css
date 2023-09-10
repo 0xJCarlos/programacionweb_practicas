@@ -1,0 +1,78 @@
+#titulo {
+    color: #1C8890;
+}
+
+p strong {
+    color: red;
+}
+
+.inter1 {
+    color: orange;
+}
+
+.porttitor{
+    color: magenta;
+}
+
+h2{
+    color: blue;
+}
+
+p a {
+    color: red;
+}
+
+p a em {
+    color: blue;
+}
+
+caption{
+    color: blue;
+}
+
+table{
+    color: green;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead tr th {
+    color: orange;
+}
+
+tfoot tr th{
+    color: red;
+}
+
+
+tbody tr td{
+    color:#427B4A;
+}
+
+tbody tr th{
+    color: orange;
+}
+
+.fila2{
+    color: red;
+}
+
+.purus{
+    color: orange;
+}
+
+#textoFinal{
+    color: #A8BB6D;
+}
+
+#textoFinal .Nunc{
+    color: violet;
+}
+
+#textoFinal a{
+    color: green;
+}
