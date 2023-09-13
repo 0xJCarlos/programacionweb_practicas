@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html">Regresar a Menú de Practicas</a>
+    <br><br><br>
+    <table id="Table">
+        <tr>
+            <th class="column1">Title</th>
+            <th class="column2">Title</th>
+            <th class="column3">Title</th>
+            <th class="column4">Title</th>
+            <th class="column5">Title</th>
+            <th class="column6">Title</th>
+        </tr>
+        <tr>
+            <td class="column1">Data</td>
+            <td class="column2">Data</td>
+            <td class="column3">Data</td>
+            <td class="column4">Data</td>
+            <td class="column5">Data</td>
+            <td class="column6">Data</td>
+        </tr>
+        <tr>
+            <td class="column1">Data</td>
+            <td class="column2">Data</td>
+            <td class="column3">Data</td>
+            <td class="column4">Data</td>
+            <td class="column5">Data</td>
+            <td class="column6">Data</td>
+        </tr>
+        <tr>
+            <td class="column1">Data</td>
+            <td class="column2">Data</td>
+            <td class="column3">Data</td>
+            <td class="column4">Data</td>
+            <td class="column5">Data</td>
+            <td class="column6">Data</td>
+        </tr>
+        <tr>
+            <td class="column1">Data</td>
+            <td class="column2">Data</td>
+            <td class="column3">Data</td>
+            <td class="column4">Data</td>
+            <td class="column5">Data</td>
+            <td class="column6">Data</td>
+        </tr>
+        <tr>
+            <td class="column1">Data</td>
+            <td class="column2">Data</td>
+            <td class="column3">Data</td>
+            <td class="column4">Data</td>
+            <td class="column5">Data</td>
+            <td class="column6">Data</td>
+        </tr>
+        <tr>
+            <td class="column1">Data</td>
+            <td class="column2">Data</td>
+            <td class="column3">Data</td>
+            <td class="column4">Data</td>
+            <td class="column5">Data</td>
+            <td class="column6">Data</td>
+        </tr>
+    </table>
+
+    <script>
+        var table = document.getElementById('Table');
+        for (var i = 0; i < table.rows[0].cells.length; i++) {
+            for (var j = 1; j < table.rows.length; j++) {
+                table.rows[j].cells[i].onmouseover = function () {
+                     var c = this.cellIndex;
+                     for (var k = 1; k < table.rows.length; k++) {
+                        table.rows[k].cells[c].classList.add("hovered");
+                    }
+        };
+        table.rows[j].cells[i].onmouseout = function () {
+            var c = this.cellIndex;
+            for (var k = 1; k < table.rows.length; k++) {
+                table.rows[k].cells[c].classList.remove("hovered");
+             }
+        };
+    }
+    }
+    </script>
+</body>
+</html>
