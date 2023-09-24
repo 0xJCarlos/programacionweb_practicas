@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(69, 69, 69);
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li{
+    list-style: none;
+}
+
+.encabezado{
+    background-color: darkorchid;
+    height: 20%;
+    width: auto;
+}
+
+a{
+    color: violet;
+}
+
+a:visited{
+    color:white;
+}
+

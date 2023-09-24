@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+}
+
+.contenedor{
+    padding: 5px;
+    width: 500px;
+    height: 750px;
+    font-family: sans-serif;
+    border: dotted black 2px;
+}
+
+.caja{
+    background-color: bisque;
+    padding: 5px;
+}
+
+#c1 {
+    margin-bottom: 5px;
+    border: solid red 5px;
+    height: 5%;
+
+}
+
+#c2{
+    float: left;
+    height: 35%;
+    width: 20%;
+    border: solid blue 5px;
+    margin-right: 5px;
+
+}
+
+#c3{
+    width: auto;
+    height: 50%;
+    border: solid green 5px;
+    overflow: hidden;
+
+}
+
+#c4{
+    margin-top: 5px;
+    border: solid yellow 5px;
+    clear: both;
+    height: 10%;
+}
