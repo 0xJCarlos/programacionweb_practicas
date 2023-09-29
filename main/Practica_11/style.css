@@ -1,0 +1,161 @@
+.pagina{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.header{
+    position: relative;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.topBar{
+    height: 60%;
+}
+
+.logo{
+    float: left;
+    font: size 24px;
+    padding-left: 10px;
+    color: #DE9E63;
+}
+
+.buscar{
+    float: right;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+
+.bottomBar{
+    clear: both;
+    height: 35%;
+    background-color:#1D3472;
+}
+
+.bottomBarLinks{
+    padding: 8px;
+}
+
+
+.bottomBar a{
+    color: white;
+    padding: 10px;
+    top: 25%;
+
+
+}
+
+.leftBox{   
+    top: 10px;
+    position: relative;
+    box-sizing: border-box;
+    height: 550px;
+    width: 20%;
+    float: left;
+
+}
+
+.leftContent{
+    padding-left: 5px;
+    border: solid 1px gray;
+    background-color: #F7F7F7;
+}
+
+.leftContent a{
+    color: blue;
+}
+
+#publicidad{
+    margin-top: 10px;
+    padding-left: 5px;
+    background-color: #FFF7CE;
+    border: dotted orangered 3px;
+    
+}
+
+#publicidad h3, #publicidad a{
+    color: orangered;
+}
+
+.rightBox{
+    top: 10px;
+    width:auto;
+    position: relative;
+    overflow: hidden;
+    left: 10px;
+    height: auto;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.rightBoxOne{
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+
+.rightBoxOneContent{
+    margin-left: 10px;
+}
+
+.rightBoxOneContent h2{
+   color: orangered;
+}
+
+.rightBoxOneContent a{
+    color: orange;
+ }
+
+.rightBoxOneContent p{
+    margin-left:  20px;
+
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    float: left;
+    margin-right: 10px;
+}
+
+.rightBoxTwo{
+    float: right;
+    width: 19%;
+    height: 60%;
+    border: 2px solid #E3AC79;
+}
+
+.rightBoxTwoContent{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.rightBoxTwoContent h3{
+    padding: 10px 15px 10px 5px;
+    color: white;
+    background-color: #DE9E63;
+}
+
+.footer{
+    position: relative;
+    width: auto;
+    height: 20px;
+    top: 20px;
+    padding: 10px;
+    border: solid 1px darkgray;
+    bottom: 10px;
+    background-color: #F7F7F7;
+
+}
+
+.footerLink a{
+    float: left;
+    padding-left: 10px;
+}
+
+.footerCopyright{
+    float: right;
+    color: gray;
+}
