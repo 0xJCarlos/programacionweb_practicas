@@ -1,0 +1,55 @@
+.grid-container{
+    padding: 10px;
+    display: grid;
+    background-color: #D0D0D0;
+    grid-template-columns: 200px 300px 300px;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-content: center;
+    align-content:center;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas: 'uno dos dos'
+                         'uno dos dos'
+                         'uno tres cuatroa'
+                         'uno tres cuatrob';
+
+
+}
+
+.grid-container div{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.n1{
+    background-color: #FF7676;
+    grid-area: uno;
+}
+
+.n2{
+    background-color: #C2FF76;
+    grid-area: dos;
+}
+
+.n3{
+    background-color: #FF9BF7;
+    grid-area: tres;
+}
+
+
+
+.n4a{
+    grid-area: cuatroa;
+    background-color: #9BA4FF;
+
+}
+
+.n4b{
+    grid-area: cuatrob;
+    background-color: #9BA4FF;
+    
+
+}
