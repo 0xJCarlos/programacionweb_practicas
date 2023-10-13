@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #303443;
+    color: whitesmoke;
+}
+
+a, a:visited{
+    color: whitesmoke;
+}
+
+h1{
+    color: purple;
+}
