@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #303443;
+    color: whitesmoke;
+}
+
+h1{
+    color: purple;
+}
+
+input{
+    margin: 10px;
+}
+
+a, a:visited{
+    color: whitesmoke;
+}
+
